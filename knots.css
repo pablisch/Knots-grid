@@ -32,6 +32,12 @@ body {
     }
 }
 
+header {
+    background-color: white;
+    padding: 0;
+    color: darkseagreen;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
