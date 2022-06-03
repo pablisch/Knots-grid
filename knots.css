@@ -33,15 +33,22 @@ body {
 }
 .square {
     background-color: rgb(249, 249, 240);
-    float: left;
     width: 33.3%; /* width is 30% by default */
     padding-top: 33.3%;
+    position: relative;
 }
 .square2 {
     background-color: rgb(194, 192, 188);
-    float: left;
     width: 33.3%; /* width is 33.3% by default */
     padding-top: 29%;
+    position: relative;
+}
+.pointlessText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .header {
