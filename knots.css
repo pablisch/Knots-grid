@@ -34,13 +34,11 @@ body {
 
 header {
     background-color: white;
-    padding: 0px;
+    padding: 5px;
     color: rgb(135, 127, 111);
     margin: 0px;
     text-align: center;
-    font-size: 3vw;
-    text-size-adjust: 400%;
-    
+    font-size: 3vw;    
 }
 
 ul {
