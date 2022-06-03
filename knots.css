@@ -94,3 +94,9 @@ p {
     text-align: center;
     font-size: 1.8vw;  
 }
+/* Use a media query to add a break point at 800px */
+@media screen and (max-width: 800px) {
+    .square1, .square2, .square3 {
+        width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
+    }
+}
