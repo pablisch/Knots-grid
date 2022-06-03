@@ -60,7 +60,7 @@ body {
 .header {
     background-color: rgb(247, 244, 238);
     padding: 1px;
-    color: rgb(135, 127, 111);
+    color: rgba(135, 127, 111, 0.5);
     margin: 0px;
     text-align: center;
     font-size: 2.3vw;    
