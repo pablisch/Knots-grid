@@ -13,7 +13,7 @@ body {
     float: left;
     width: 20%; /* width is 20% by default */
 }
-.main {
+.middle {
     background-color: sandybrown;
     padding: 20px;
     float: left;
@@ -30,6 +30,12 @@ body {
     .left, .main, .right {
         width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
     }
+}
+.square {
+    background-color: aquamarine;
+    padding: 20px;
+    float: left;
+    width: 30%; /* width is 30% by default */
 }
 
 .header {
