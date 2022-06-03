@@ -12,24 +12,28 @@ body {
     padding: 10px;
     float: left;
     width: 5%;
+    height: 400px;
 }
 .imageFirst {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
     width: 35%;
+    height: 400px;
 }
 .textSecond {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
     width: 55%;
+    height: 400px;
 }
 .right1 {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     float: left;
     width: 5%;
+    height: 400px;
 }
 /* Use a media query to add a break point at 800px */
 @media screen and (max-width: 1000px) {
