@@ -34,7 +34,7 @@ body {
 
 header {
     background-color: white;
-    padding: 5px;
+    padding: 3px;
     color: rgb(135, 127, 111);
     margin: 0px;
     text-align: center;
@@ -50,7 +50,7 @@ ul {
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   li a {
