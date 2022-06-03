@@ -1,0 +1,33 @@
+body {
+    background-image: url('images/kitty.webp'); 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.left {
+    background-color: aquamarine;
+    padding: 20px;
+    float: left;
+    width: 20%; /* width is 20% by default */
+}
+.main {
+    background-color: sandybrown;
+    padding: 20px;
+    float: left;
+    width: 60%; /* width is 60% by default */
+}
+.right {
+    background-color: darkorange;
+    padding: 20px;
+    float: left;
+    width: 20%; /* width is 20% by default */
+}
+/* Use a media query to add a break point at 800px */
+@media screen and (max-width: 1000px) {
+    .left, .main, .right {
+        width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
+    }
+}
