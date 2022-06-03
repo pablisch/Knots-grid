@@ -53,5 +53,6 @@ ul {
   }
   
   li a:hover {
-    background-color: #e4ca9d;
+    background-color: #ddd5c9;
+    color: rgb(38, 29, 9);
   }
