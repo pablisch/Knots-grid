@@ -37,7 +37,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #f4f9ed;
   }
   
   li {
@@ -46,12 +46,12 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(70, 65, 50);
     text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: #e4ca9d;
   }
