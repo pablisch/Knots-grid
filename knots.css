@@ -46,7 +46,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(70, 65, 50);
+    color: rgb(141, 133, 109);
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -54,5 +54,5 @@ ul {
   
   li a:hover {
     background-color: #ddd5c9;
-    color: rgb(38, 29, 9);
+    color: rgb(70, 65, 50);
   }
