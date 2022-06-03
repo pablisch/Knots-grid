@@ -35,11 +35,13 @@ body {
     background-color: rgb(249, 249, 240);
     width: 20%; /* width is 30% by default */
     padding-top: 20%;
+    float: left;
 }
 .square2 {
     background-color: rgb(194, 192, 188);
     width: 20%; /* width is 33.3% by default */
     padding-top: 20%;
+    float: left;
 }
 
 .header {
