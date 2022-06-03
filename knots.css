@@ -111,6 +111,14 @@ p {
     text-align: center;
     font-size: 1.8vw;  
 }
+.para {
+    background-color: rgb(247, 244, 238);
+    padding: 1px;
+    color: rgba(135, 127, 111, 0.95);
+    margin: 0px;
+    text-align: center;
+    font-size: 1.8vw;  
+}
 /* Use a media query to add a break point at 900px */
 @media screen and (max-width: 900px) {
     .square1, .square2, .square3 {
