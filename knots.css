@@ -67,17 +67,21 @@ body {
 }
 #navbar {
     overflow: hidden;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/ /* original colour way */
+    background-color: #897b5f;
 }
 #navbar a {
     display: block;
-    color: rgb(141, 133, 109);
+    /*color: rgb(141, 133, 109);*/ /* original colour way */
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px;
     text-decoration: none;
     float: left;
 }
 #navbar a:hover {
+    /*background-color: #f2ede4;
+    color: rgb(70, 65, 50);*/ /* original colour way */
     background-color: #f2ede4;
     color: rgb(70, 65, 50);
 }
