@@ -32,7 +32,7 @@ body {
     }
 }
 
-header {
+.header {
     background-color: white;
     padding: 1px;
     color: rgb(135, 127, 111);
