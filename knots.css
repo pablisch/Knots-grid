@@ -36,7 +36,8 @@ header {
     background-color: white;
     padding: 10px;
     color: darkseagreen;
-    margin-left: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 ul {
