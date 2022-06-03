@@ -65,6 +65,14 @@ body {
     text-align: center;
     font-size: 2.3vw;    
 }
+.subheading {
+    background-color: rgba(217, 210, 196, 0.5);
+    padding: 1px;
+    color: rgb(135, 127, 111);
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5vw;  
+}
 #navbar {
     overflow: hidden;
     /*background-color: #fdfdfd;*/ /* original colour way */
@@ -111,14 +119,7 @@ p {
     text-align: center;
     font-size: 1.8vw;  
 }
-.yada {
-    background-color: rgb(247, 244, 238);
-    padding: 1px;
-    color: rgba(135, 127, 111, 0.8);
-    margin: 0px;
-    text-align: center;
-    font-size: 1.5vw;  
-}
+
 /* Use a media query to add a break point at 900px */
 @media screen and (max-width: 900px) {
     .square1, .square2, .square3 {
