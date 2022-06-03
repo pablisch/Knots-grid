@@ -41,7 +41,7 @@ body {
     background-color: rgb(194, 192, 188);
     float: left;
     width: 33.3%; /* width is 33.3% by default */
-    padding-top: 33.3%;
+    padding-top: 27%;
 }
 
 .header {
