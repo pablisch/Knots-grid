@@ -114,10 +114,10 @@ p {
 .para {
     background-color: rgb(247, 244, 238);
     padding: 1px;
-    color: rgba(135, 127, 111, 0.95);
+    color: rgba(135, 127, 111, 0.9);
     margin: 0px;
     text-align: center;
-    font-size: 1.8vw;  
+    font-size: 1.5vw;  
 }
 /* Use a media query to add a break point at 900px */
 @media screen and (max-width: 900px) {
