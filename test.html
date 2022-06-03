@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>doh!</title>
-        <link rel="icon" type="image/x-icon" href="images/knoticon.png" />    
+        <title>HTML1</title>
+        <link rel="stylesheet" href="CSS1.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon1.png" />    
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, iniital-scale=1.0" />
+    
         <style>
-            .container {
-               background-color: rgb(133, 199, 97);
-               position: relative;
-               width: 50%;
-               padding-top: 50%; /* 1:1 Aspect Ratio */
-            }
-            
-            .text {
-               position:  absolute;
-               top: 0;
-               left: 0;
-               bottom: 0;
-               right: 0;
-               text-align: center;
-               font-size: 20px;
-               color: rgb(99, 42, 42);
-            }
-            </style>
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+        margin: 0;
+        font-family: Arial;
+        }
+
+        .header {
+        text-align: center;
+        padding: 32px;
+        }
+
+        .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        }
+        </style>
     </head>
+<body>
 
-    <body>
-        <h2>Maintain Aspect Ratio 1:1</h2>
-        <p>Resize the window to see the effect.</p>
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
 
-        <div class="container"> 
-        <div class="text">1:1 Aspect ratio</div> 
-        </div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
 
-        <div class="container"> 
-        <div class="text">1:1 Aspect ratio</div> 
-        </div>
-
-
-    </body>
+</body>
+</html>
