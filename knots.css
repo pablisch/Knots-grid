@@ -38,7 +38,7 @@ header {
     color: rgb(135, 127, 111);
     margin: 0px;
     text-align: center;
-    font-size: 3vw;    
+    font-size: 3.5vw;    
 }
 
 ul {
@@ -49,9 +49,9 @@ ul {
     background-color: #fdfdfd;
   }
   
-  /*li {
+  li {
     float: left;
-  }*/
+  }
   
   li a {
     display: block;
