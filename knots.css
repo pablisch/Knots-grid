@@ -68,7 +68,7 @@ body {
 #navbar {
     overflow: hidden;
     /*background-color: #fdfdfd;*/ /* original colour way */
-    background-color: hsla(46, 18%, 45%, 0.5);
+    background-color: hsla(45, 13%, 38%, 0.8);
 }
 #navbar a {
     display: block;
