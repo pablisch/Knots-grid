@@ -50,7 +50,7 @@ body {
     float: left;
 }
 .imageBox {
-    
+    position: relative;
 }
 
 .header {
