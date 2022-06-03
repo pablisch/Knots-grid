@@ -31,7 +31,7 @@ body {
         width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
     }
 }
-.square {
+.square1 {
     background-color: rgb(249, 249, 240);
     width: 33.3%; /* width is 33.3% by default */
     padding-top: 33.3%;
@@ -39,6 +39,12 @@ body {
 }
 .square2 {
     background-color: rgb(194, 192, 188);
+    width: 33.3%; /* width is 33.3% by default */
+    padding-top: 33.3%;
+    float: left;
+}
+.square3 {
+    background-color: rgb(224, 215, 197);
     width: 33.3%; /* width is 33.3% by default */
     padding-top: 33.3%;
     float: left;
