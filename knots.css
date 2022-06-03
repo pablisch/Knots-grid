@@ -100,10 +100,17 @@ p {
     text-align: center;
     font-size: 1.8vw;  
 }
-/* Use a media query to add a break point at 800px */
-@media screen and (max-width: 800px) {
+/* Use a media query to add a break point at 900px */
+@media screen and (max-width: 900px) {
     .square1, .square2, .square3 {
-        width: 100%; /* width is 100% when the viewport is 800px or smaller ?? */
+        width: 50%; /* width is 50% when the viewport is 900px or smaller ?? */
+        padding-top: 50%;
+    }
+}
+/* Use a media query to add a break point at 650px */
+@media screen and (max-width: 650px) {
+    .square1, .square2, .square3 {
+        width: 100%; /* width is 100% when the viewport is 650px or smaller ?? */
         padding-top: 100%;
     }
 }
