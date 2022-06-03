@@ -70,3 +70,11 @@ body {
 p {
     color: #90897c;
 }
+.section {
+    background-color: rgb(247, 244, 238);
+    padding: 1px;
+    color: rgb(135, 127, 111);
+    margin: 0px;
+    text-align: center;
+    font-size: 0.3vw;  
+}
