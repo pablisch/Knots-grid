@@ -42,12 +42,12 @@ body {
     width: 33.3%; /* width is 33.3% by default */
     padding-top: 29%;
 }
-.pointlessText {
+/*.pointlessText {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-}
+}*/
 
 .header {
     background-color: rgb(247, 244, 238);
