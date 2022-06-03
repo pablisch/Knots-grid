@@ -35,7 +35,7 @@ body {
     background-color: rgb(249, 249, 240);
     width: 33.3%; /* width is 30% by default */
     padding-top: 33.3%;
-    position: relative;
+    /*position: relative;*/
 }
 .square2 {
     background-color: rgb(194, 192, 188);
