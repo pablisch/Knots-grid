@@ -7,23 +7,29 @@ body {
 * {
     box-sizing: border-box;
 }
-.left {
-    background-color: aquamarine;
-    padding: 20px;
+.left1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
     float: left;
-    width: 20%; /* width is 20% by default */
+    width: 5%;
 }
-.middle {
-    background-color: sandybrown;
+.imageFirst {
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
-    width: 60%; /* width is 60% by default */
+    width: 35%;
 }
-.right {
-    background-color: darkorange;
+.textSecond {
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
-    width: 20%; /* width is 20% by default */
+    width: 55%;
+}
+.right1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    float: left;
+    width: 5%;
 }
 /* Use a media query to add a break point at 800px */
 @media screen and (max-width: 1000px) {
