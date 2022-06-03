@@ -76,7 +76,7 @@ p {
 }
 .section {
     background-color: rgb(247, 244, 238);
-    padding: 0px;
+    padding: 1px;
     color: rgb(135, 127, 111);
     margin: 0px;
     text-align: center;
