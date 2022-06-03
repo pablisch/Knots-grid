@@ -34,8 +34,9 @@ body {
 
 header {
     background-color: white;
-    padding: 0;
+    padding: 10px;
     color: darkseagreen;
+    margin-left: 0px;
 }
 
 ul {
