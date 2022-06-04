@@ -149,14 +149,14 @@ h3 {
 /* Responsive layout - alters responsive text inside images */
 @media screen and (max-width: 1800px) {
   .centered {
-    font-size: 0.9vw;
+    font-size: 1vw;
     padding: 4px;
   }
 }
 /* Responsive layout - alters responsive text inside images */
 @media screen and (max-width: 1500px) {
   .centered {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     padding: 4px;
   }
 }
@@ -166,7 +166,7 @@ h3 {
     width: 33.3%;
   }
   .centered {
-    font-size: 1.4vw;
+    font-size: 1.6w;
     padding: 4px;
   }
 }
@@ -176,7 +176,7 @@ h3 {
     width: 50%;
   }
   .centered {
-    font-size: 2.3vw;
+    font-size: 2.5vw;
     padding: 4px;
   }
 }
@@ -186,7 +186,7 @@ h3 {
     width: 100%;
   }
   .centered {
-    font-size: 4.1vw;
+    font-size: 4.3vw;
     padding: 4px;
   }
 }
