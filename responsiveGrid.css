@@ -67,7 +67,7 @@
     }
   }
   /* Responsive layout - makes the single column stack on top of each other instead two stacked */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
