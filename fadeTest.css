@@ -132,6 +132,10 @@ h3 {
   opacity: 1;
 }
 
+.whiteSpace {
+  min-height: 1000px;
+}
+
 
 /* Responsive layout - makes a five column-layout instead of ten columns */
 /*@media screen and (max-width: 1500px) {
