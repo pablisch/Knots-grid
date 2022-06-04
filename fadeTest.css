@@ -51,23 +51,11 @@
 .sticky + .content {
   padding-top: 200px;
 }
-/* overlay styling */
+
 .container {
   position: relative;
   text-align: center;
   color: rgb(59, 55, 45);
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
 }
   
 /* Center website */
