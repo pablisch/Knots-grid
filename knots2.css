@@ -27,7 +27,7 @@
 }
 #navbar {
   overflow: hidden;
-  background-color: hsla(45, 13%, 38%, 0.9);
+  background-color: hsla(45, 13%, 38%, 0.95);
 }
 #navbar a {
   display: block;
