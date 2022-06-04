@@ -132,6 +132,9 @@ h3 {
 .image:hover {
   opacity: 0.8;
 }
+.image:hover .centered{
+  opacity: 1;
+}
 .centered {
   position: absolute;
   top: 50%;
