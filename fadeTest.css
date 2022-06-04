@@ -140,7 +140,7 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  opacity: 0.2;
 }
 
 /* Responsive layout - makes a five column-layout instead of ten columns */
