@@ -48,15 +48,26 @@
     padding: 10px;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - makes a five column-layout instead of ten columns */
+  @media screen and (max-width: 1200px) {
+    .column {
+      width: 20%;
+    }
+  }
+  /* Responsive layout - makes a three column stack on top of each other instead five stacked */
   @media screen and (max-width: 900px) {
+    .column {
+      width: 33.3%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead three stacked */
+  @media screen and (max-width: 700px) {
     .column {
       width: 50%;
     }
   }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  /* Responsive layout - makes the single column stack on top of each other instead two stacked */
+  @media screen and (max-width: 500px) {
     .column {
       width: 100%;
     }
