@@ -52,6 +52,9 @@
   padding-top: 200px;
 }
 /* overlay styling */
+.container {
+  position: relative;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -124,7 +127,7 @@ h3 {
   opacity: 1;
   border: 1px solid hsla(47, 8%, 45%, 0.8);
 }
-.image:hover .overlay{
+.image:hover .overlay {
   opacity: 0.8;
 }
 
