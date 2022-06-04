@@ -55,7 +55,7 @@
 .container {
   position: relative;
   text-align: center;
-  color: rgb(46, 2, 141);
+  color: rgb(59, 55, 45);
 }
 .overlay {
   position: absolute;
@@ -134,10 +134,10 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.2;
+  opacity: 0;
 }
 .container:hover > .image{
-  opacity: 0.8;
+  opacity: 0.2;
 }
 .container:hover > .centered{
   opacity: 1;
