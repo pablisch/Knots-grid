@@ -165,13 +165,11 @@ h3 {
 }
 /* Responsive layout - makes the single column stack on top of each other instead two stacked */
 @media screen and (max-width: 600px) {
-  .column, .endcolumn, .centered{
+  .column, .endcolumn {
     width: 100%;
-    font-size: 3vw;
-    /*margin: 1em;
-    margin: 50px;*/
   }
   .centered {
+    font-size: 3vw;
     padding: 10px;
   }
 }
