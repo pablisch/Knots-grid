@@ -55,7 +55,7 @@
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: rgb(46, 2, 141);
 }
 .overlay {
   position: absolute;
