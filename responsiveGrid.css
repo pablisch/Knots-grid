@@ -39,7 +39,7 @@
   .column {
     float: left;
     width: 20%;
-    padding-top: 200%;
+    padding-top: auto;
   }
   
   /* Clear floats after rows */ 
