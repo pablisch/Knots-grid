@@ -137,7 +137,7 @@ h3 {
   opacity: 0;
 }
 .container:hover > .image{
-  opacity: 0.35;
+  opacity: 0.25;
 }
 .container:hover > .centered{
   opacity: 1;
