@@ -166,7 +166,7 @@ h3 {
   }
   .centered {
     font-size: 1.3vw;
-    padding: 6px;
+    padding: 4px;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead three stacked */
@@ -176,7 +176,7 @@ h3 {
   }
   .centered {
     font-size: 2.2vw;
-    padding: 8px;
+    padding: 4px;
   }
 }
 /* Responsive layout - makes the single column stack on top of each other instead two stacked */
@@ -186,6 +186,6 @@ h3 {
   }
   .centered {
     font-size: 4vw;
-    padding: 10px;
+    padding: 4px;
   }
 }
