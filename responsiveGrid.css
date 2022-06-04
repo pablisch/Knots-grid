@@ -10,7 +10,7 @@
   
   /* Center website */
   .main {
-    max-width: 1800px;
+    max-width: 1500px;
     margin: auto;
   }
   
@@ -32,7 +32,7 @@
   /* Create (100/width) equal columns that floats next to each other */
   .column {
     float: left;
-    width: 10%;
+    width: 20%;
   }
   
   /* Clear floats after rows */ 
@@ -49,11 +49,11 @@
   }
   
   /* Responsive layout - makes a five column-layout instead of ten columns */
-  @media screen and (max-width: 1500px) {
+  /*@media screen and (max-width: 1500px) {
     .column {
       width: 20%;
     }
-  }
+  }*/
   /* Responsive layout - makes a three column stack on top of each other instead five stacked */
   @media screen and (max-width: 1200px) {
     .column {
