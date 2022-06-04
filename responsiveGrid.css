@@ -55,6 +55,9 @@
     padding: 10px;
     padding-top: auto;
   }
+  .image {
+    opacity: 0.7;
+  }
   
   /* Responsive layout - makes a five column-layout instead of ten columns */
   /*@media screen and (max-width: 1500px) {
