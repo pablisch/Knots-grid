@@ -129,12 +129,6 @@ h3 {
   opacity: 1;
   border: 1px solid hsla(47, 8%, 45%, 0.8);
 }
-.image:hover {
-  opacity: 0.8;
-}
-.image:hover > .centered{
-  opacity: 1;
-}
 .centered {
   position: absolute;
   top: 50%;
@@ -142,6 +136,13 @@ h3 {
   transform: translate(-50%, -50%);
   opacity: 0.2;
 }
+.image:hover {
+  opacity: 0.8;
+}
+.image:hover > .centered{
+  opacity: 1;
+}
+
 
 /* Responsive layout - makes a five column-layout instead of ten columns */
 /*@media screen and (max-width: 1500px) {
