@@ -148,7 +148,7 @@ h3 {
 /* Responsive layout - alters responsive text inside images */
 @media screen and (max-width: 1800px) {
   .centered {
-    font-size: 1vw;
+    font-size: 0.9vw;
     padding: 4px;
   }
 }
