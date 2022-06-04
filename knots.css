@@ -7,27 +7,140 @@ body {
 * {
     box-sizing: border-box;
 }
-.left {
-    background-color: aquamarine;
-    padding: 20px;
+.left1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
     float: left;
-    width: 20%; /* width is 20% by default */
+    width: 5%;
+    height: 400px;
 }
-.main {
-    background-color: sandybrown;
+.imageFirst {
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
-    width: 60%; /* width is 60% by default */
+    width: 35%;
+    height: 400px;
 }
-.right {
-    background-color: darkorange;
+.textSecond {
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     float: left;
-    width: 20%; /* width is 20% by default */
+    width: 55%;
+    height: 400px;
+}
+.right1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    float: left;
+    width: 5%;
+    height: 400px;
 }
 /* Use a media query to add a break point at 800px */
 @media screen and (max-width: 1000px) {
     .left, .main, .right {
         width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
+    }
+}
+.square1 {
+    background-color: rgb(249, 249, 240);
+    width: 33.3%; /* width is 33.3% by default */
+    padding-top: 33.3%;
+    float: left;
+}
+.square2 {
+    background-color: rgb(194, 192, 188);
+    width: 33.3%; /* width is 33.3% by default */
+    padding-top: 33.3%;
+    float: left;
+}
+.square3 {
+    background-color: rgb(224, 215, 197);
+    width: 33.3%; /* width is 33.3% by default */
+    padding-top: 33.3%;
+    float: left;
+}
+.imageBox {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.header {
+    background-color: rgba(217, 210, 196, 0.3);
+    padding: 1px;
+    color: rgb(135, 127, 111);
+    margin: 0px;
+    text-align: center;
+    font-size: 2.3vw;    
+}
+.subheading {
+    background-color: rgba(217, 210, 196, 0.5);
+    padding: 1px;
+    color: rgb(135, 127, 111);
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5vw;  
+}
+#navbar {
+    overflow: hidden;
+    /*background-color: #fdfdfd;*/ /* original colour way */
+    background-color: hsla(45, 13%, 38%, 0.8);
+}
+#navbar a {
+    display: block;
+    /*color: rgb(141, 133, 109);*/ /* original colour way */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    float: left;
+}
+#navbar a:hover {
+    /*background-color: #f2ede4;
+    color: rgb(70, 65, 50);*/ /* original colour way */
+    background-color: #f2ede4;
+    color: rgb(70, 65, 50);
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 200px;
+}
+p {
+    color: #90897c;
+}
+.section {
+    background-color: rgb(247, 244, 238);
+    padding: 1px;
+    color: rgba(135, 127, 111, 0.8);
+    margin: 0px;
+    text-align: center;
+    font-size: 1.8vw;  
+}
+
+/* Use a media query to add a break point at 900px */
+@media screen and (max-width: 900px) {
+    .square1, .square2, .square3 {
+        width: 50%; /* width is 50% when the viewport is 900px or smaller ?? */
+        padding-top: 50%;
+    }
+}
+/* Use a media query to add a break point at 650px */
+@media screen and (max-width: 650px) {
+    .square1, .square2, .square3 {
+        width: 100%; /* width is 100% when the viewport is 650px or smaller ?? */
+        padding-top: 100%;
     }
 }
