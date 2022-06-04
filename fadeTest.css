@@ -168,7 +168,7 @@ h3 {
   .column, .endcolumn, .centered{
     width: 100%;
     font-size: 3vw;
-    margin: 1em;
-    /*margin: 50px;*/
+    /*margin: 1em;
+    margin: 50px;*/
   }
 }
