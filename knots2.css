@@ -28,7 +28,6 @@
 #navbar {
   overflow: hidden;
   background-color: hsla(45, 13%, 38%, 0.95);
-  font-size: 0.8vw;
 }
 #navbar a {
   display: block;
