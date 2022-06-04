@@ -145,6 +145,13 @@ h3 {
     width: 20%;
   }
 }*/
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 1500px) {
+  .centered {
+    font-size: 1vw;
+    padding: 4px;
+  }
+}
 /* Responsive layout - makes a three column stack on top of each other instead five stacked */
 @media screen and (max-width: 1200px) {
   .column {
