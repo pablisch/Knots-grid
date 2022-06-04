@@ -104,7 +104,7 @@
   }
   .image {
     opacity: 1;
-    border: 1px solid hsla(47, 12%, 29%, 0.8);
+    border: 1px solid hsla(47, 8%, 45%, 0.8);
   }
   .image:hover {
     opacity: 0.85;
