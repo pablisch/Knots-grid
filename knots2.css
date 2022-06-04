@@ -55,9 +55,11 @@
   h1 {
     font-size: 50px;
     word-break: break-all;
+    color: hsla(45, 13%, 38%, 0.8);
   }
   h3 {
     text-align: center;
+    color: hsla(45, 13%, 38%, 0.8);
   }
   
   .row {
