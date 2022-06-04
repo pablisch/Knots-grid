@@ -58,6 +58,9 @@
   .image {
     opacity: 0.7;
   }
+  .image:hover {
+    opacity: 1;
+  }
   
   /* Responsive layout - makes a five column-layout instead of ten columns */
   /*@media screen and (max-width: 1500px) {
