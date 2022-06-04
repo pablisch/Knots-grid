@@ -125,6 +125,7 @@ h3 {
   transform: translate(-50%, -50%);
   opacity: 50;
   font-size: 0.7vw;
+  margin: 0px -20px;
 }
 .container:hover > .image{
   opacity: 0.25;
