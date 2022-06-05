@@ -116,12 +116,12 @@ h3 {
 
 /* Content */
 .content {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(243, 249, 230, 0.8);
   padding: 10px;
   padding-top: auto;
 }
 .content:hover {
-  background-color: rgba(243, 249, 230, 0.8);
+  background-color: rgba(254, 254, 254, 0.8);
 }
 .image {
   opacity: 1;
