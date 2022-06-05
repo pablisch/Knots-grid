@@ -29,6 +29,7 @@
     max-width: 1000px;
     max-height: 562px;
     border: none;
+    margin: auto;
   }
 
   a:link { text-decoration: none; }
