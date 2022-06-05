@@ -16,7 +16,7 @@
   a:active { text-decoration: none; }
 
   .header {
-    background-color: rgba(217, 210, 196, 0.3);
+    background-color: rgba(217, 210, 196, 0);
     padding: 1px;
     color: rgb(135, 127, 111);
     margin: 0px;
@@ -24,9 +24,9 @@
     font-size: 2.3vw;    
 }
 .subheading {
-  background-color: rgba(217, 210, 196, 0.5);
+  background-color: rgba(98, 89, 70, 0.5);
   padding: 1px;
-  color: rgb(135, 127, 111);
+  color: rgb(217, 210, 196);
   margin: 0px;
   text-align: center;
   font-size: 1.5vw;  
