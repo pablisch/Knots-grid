@@ -123,6 +123,7 @@ h3 {
 }
 .content:hover {
   background-color: rgba(254, 254, 254, 0.8);
+  border: 1px solid hsla(51, 6%, 78%, 0.8);
 }
 .image {
   opacity: 1;
