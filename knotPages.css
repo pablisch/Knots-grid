@@ -17,7 +17,7 @@
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
     max-width: 1000px; /* Stops video becoming too large on large screens - note that max-height does not work in this section perhaps due to be over-ridden by the height specification in the .responsive-video class style. */
     margin: auto;
-  }
+  } /* The code to make the video responsive was found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_169 */
   
   .responsive-video {
     position: absolute;
@@ -29,7 +29,7 @@
     height: 100%;
     max-height: 562px; /* Keeps the 16:9 aspect ration when the screen width is over 1000px and so width is restricted in the .video-container style. - Note that if the max-width is moved to this style, the margins go badly for some reason. */
     border: none;
-  }
+  } /* The code to make the video responsive was found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_169 */
 
   a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
