@@ -50,6 +50,7 @@
   color: rgb(244, 240, 233);
   text-align: left;
   font-size: 1.2vw; 
+  max-width: 1000px; /* to match max video width */
 }
 #navbar {
   overflow: hidden;
