@@ -121,7 +121,7 @@ h3 {
   padding-top: auto;
 }
 .content:hover {
-  opacity: 0;
+  background-color: rgba(243, 249, 230, 0.8);
 }
 .image {
   opacity: 1;
