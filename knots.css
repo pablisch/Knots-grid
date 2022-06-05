@@ -119,6 +119,7 @@ h3 {
   background-color: rgba(148, 145, 134, 0.3);
   padding: 10px;
   padding-top: auto;
+  border: 1px solid hsla(47, 8%, 45%, 0.8);
 }
 .content:hover {
   background-color: rgba(254, 254, 254, 0.8);
