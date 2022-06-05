@@ -145,6 +145,9 @@ h3 {
 .content:hover .centered{
   opacity: 1;
 }
+.content:hover h3{
+  color: hsla(253, 82%, 37%, 0.8);
+}
 
 .whiteSpace {
   min-height: 400px;
