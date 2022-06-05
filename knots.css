@@ -137,7 +137,7 @@ h3 {
   font-size: 0.8vw;
   margin: 0px -30px 0px -10px;
 }
-.content:hover > .image{
+.container:hover > .image{
   opacity: 0.25;
 }
 .content:hover > .centered{
