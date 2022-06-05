@@ -222,6 +222,9 @@ h3 {
     font-size: 2.5vw;
     padding: 4px;
   }
+  .sticky {
+    position: relative;
+  }
 }
 /* Responsive layout - makes the single column stack on top of each other instead two stacked */
 @media screen and (max-width: 600px) {
