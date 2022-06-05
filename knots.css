@@ -117,6 +117,7 @@ h3 {
 .image {
   opacity: 1;
   border: 1px solid hsla(47, 8%, 45%, 0.8);
+  width: 100%;
 }
 .centered {
   position: absolute;
