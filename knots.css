@@ -1,73 +1,21 @@
-body {
-    background-image: url('images/ropeBackground2'); 
-    background-attachment: fixed; 
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-}
 * {
     box-sizing: border-box;
-}
-.left1 {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    float: left;
-    width: 5%;
-    height: 400px;
-}
-.imageFirst {
-    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  body {
+    background-image: url('images/ropeBackground2'); 
+    background-attachment: fixed;
+    background-size: cover; 
     padding: 20px;
-    float: left;
-    width: 35%;
-    height: 400px;
-}
-.textSecond {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    float: left;
-    width: 55%;
-    height: 400px;
-}
-.right1 {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    float: left;
-    width: 5%;
-    height: 400px;
-}
-/* Use a media query to add a break point at 800px */
-@media screen and (max-width: 1000px) {
-    .left, .main, .right {
-        width: 100% /* width is 100% when the viewport is 800px or smaller ?? */
-    }
-}
-.square1 {
-    background-color: rgb(249, 249, 240);
-    width: 33.3%; /* width is 33.3% by default */
-    padding-top: 33.3%;
-    float: left;
-}
-.square2 {
-    background-color: rgb(194, 192, 188);
-    width: 33.3%; /* width is 33.3% by default */
-    padding-top: 33.3%;
-    float: left;
-}
-.square3 {
-    background-color: rgb(224, 215, 197);
-    width: 33.3%; /* width is 33.3% by default */
-    padding-top: 33.3%;
-    float: left;
-}
-.imageBox {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
+    font-family: Arial;
+  }
 
-.header {
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+
+  .header {
     background-color: rgba(217, 210, 196, 0.3);
     padding: 1px;
     color: rgb(135, 127, 111);
@@ -76,71 +24,191 @@ body {
     font-size: 2.3vw;    
 }
 .subheading {
-    background-color: rgba(217, 210, 196, 0.5);
-    padding: 1px;
-    color: rgb(135, 127, 111);
-    margin: 0px;
-    text-align: center;
-    font-size: 1.5vw;  
+  background-color: rgba(217, 210, 196, 0.5);
+  padding: 1px;
+  color: rgb(135, 127, 111);
+  margin: 0px;
+  text-align: center;
+  font-size: 1.5vw;  
 }
 #navbar {
-    overflow: hidden;
-    /*background-color: #fdfdfd;*/ /* original colour way */
-    background-color: hsla(45, 13%, 38%, 0.8);
+  overflow: hidden;
+  background-color: hsla(45, 13%, 38%, 0.95);
+  z-index: 1500;
 }
 #navbar a {
-    display: block;
-    /*color: rgb(141, 133, 109);*/ /* original colour way */
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  float: left;
 }
 #navbar a:hover {
-    /*background-color: #f2ede4;
-    color: rgb(70, 65, 50);*/ /* original colour way */
-    background-color: #f2ede4;
-    color: rgb(70, 65, 50);
-}
-
-/* Page content */
-.content {
-    padding: 16px;
+  background-color: #f2ede4;
+  color: rgb(70, 65, 50);
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-    padding-top: 200px;
-}
-p {
-    color: #90897c;
-}
-.section {
-    background-color: rgb(247, 244, 238);
-    padding: 1px;
-    color: rgba(135, 127, 111, 0.8);
-    margin: 0px;
-    text-align: center;
-    font-size: 1.8vw;  
+  padding-top: 200px;
 }
 
-/* Use a media query to add a break point at 900px */
-@media screen and (max-width: 900px) {
-    .square1, .square2, .square3 {
-        width: 50%; /* width is 50% when the viewport is 900px or smaller ?? */
-        padding-top: 50%;
-    }
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(59, 55, 45);
 }
-/* Use a media query to add a break point at 650px */
-@media screen and (max-width: 650px) {
-    .square1, .square2, .square3 {
-        width: 100%; /* width is 100% when the viewport is 650px or smaller ?? */
-        padding-top: 100%;
-    }
+  
+/* Center website */
+.main {
+  max-width: 1500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+h2 {
+  text-align: left;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+h3 {
+  text-align: center;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create (100/width) equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding-top: auto;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.endcolumn {
+  float: left;
+  width: 50%;
+  padding-top: auto;
+}
+
+/* Content */
+.content {
+  background-color: rgba(148, 145, 134, 0.3);
+  padding: 10px;
+  padding-top: auto;
+  border: 1px solid hsla(47, 8%, 45%, 0.8);
+}
+.content:hover {
+  background-color: rgba(254, 254, 254, 0.8);
+  border: 1px solid hsla(51, 6%, 78%, 0.8);
+}
+.image {
+  opacity: 1;
+  border: 1px solid hsla(47, 8%, 45%, 0.8);
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 0.8vw;
+  margin: 0px -30px 0px -10px;
+}
+.content:hover .image{
+  opacity: 0.25;
+}
+.content:hover .centered{
+  opacity: 1;
+}
+.content:hover h3{
+  color: hsla(47, 10%, 54%, 0.8);
+}
+
+.whiteSpace {
+  min-height: 400px;
+  opacity: 0;
+}
+
+
+/* Responsive layout - makes a five column-layout instead of ten columns */
+/*@media screen and (max-width: 1500px) {
+  .column {
+    width: 20%;
+  }
+}*/
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 2000px) {
+  .centered {
+    font-size: 1vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 1800px) {
+  .centered {
+    font-size: 1.1vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 1500px) {
+  .centered {
+    font-size: 1.2vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - makes a three column stack on top of each other instead five stacked */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 33.3%;
+  }
+  .centered {
+    font-size: 1.9vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead three stacked */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+  .centered {
+    font-size: 2.5vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - makes the single column stack on top of each other instead two stacked */
+@media screen and (max-width: 600px) {
+  .column, .endcolumn {
+    width: 100%;
+  }
+  .centered {
+    font-size: 4.3vw;
+    padding: 4px;
+  }
 }

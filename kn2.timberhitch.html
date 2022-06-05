@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Timber Hitch</title>
+  <link rel="stylesheet" href="knotPages.css" />
+  <link rel="icon" type="image/x-icon" href="images/knoticon.png" />    
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, iniital-scale=1.0" />
+</head>
+
+<body>
+
+<!-- START of main section -->
+<div class="main">
+
+  <div id="navbar">  
+    <a href="knots.html">Home</a>
+    <a href="kn1.tarptidy.html">Tarp<br>Tidy</a>
+    <a href="kn2.timberhitch.html">Timber<br>Hitch</a>
+    <a href="#cloveHitch">Clove<br>Hitch</a>
+    <a href="#home">Taut Tarp<br>Hitch</a>
+    <a href="#home">Figure<br>Eight</a>
+    <a href="#home">Bowline<br>Knot</a>
+    <a href="#home">Reef<br>Knot</a>
+    <a href="#home">Round Turn &<br>Two Half Hitches</a>
+    <a href="#home">Sheet Bend &<br>Double Sheet Bend</a>
+    <a href="#home">Square<br>Lashing</a> 
+  </div>
+
+  <div class="header">
+    <h1>The Timber Hitch</h1>
+  </div>
+
+  <div class="subheading">
+    <p>The timber hitch is used to attach a rope to an object such as a log or a post. It is very quick and simple to tie and very easy to undo.<br>The timber hitch is one of the simplest knots to learn and relatively easy to master and remember. It is perfect for tying the first end of a hammock rope or for draggin heavy sections of wood.</p>
+  </div>
+  <br>
+  <div class="video-container">
+    <iframe class="responsive-video" src="https://www.youtube.com/embed/OsesfBOQ_Nc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- The code to make the video responsive was found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_169 -->
+  </div>
+
+<!-- END of main section -->
+<div class="whiteSpace"></div> <!-- white space at the bottom may be required to stop a scrolling glitch where the content flashes if the content is around the same height as the screen height - something to do with the sticky navbar I think. -->
+</div>
+
+<script>
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

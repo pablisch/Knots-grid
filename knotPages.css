@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('images/ropeBackground2'); 
+    background-attachment: fixed;
+    background-size: cover; 
+    padding: 20px;
+    font-family: Arial;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    max-width: 1000px; /* Stops video becoming too large on large screens - note that max-height does not work in this section perhaps due to be over-ridden by the height specification in the .responsive-video class style. */
+    margin: auto;
+  } /* The code to make the video responsive was found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_169 */
+  
+  .responsive-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 562px; /* Keeps the 16:9 aspect ration when the screen width is over 1000px and so width is restricted in the .video-container style. - Note that if the max-width is moved to this style, the margins go badly for some reason. */
+    border: none;
+  } /* The code to make the video responsive was found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_169 */
+
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+
+  .header {
+    background-color: rgba(217, 210, 196, 0);
+    padding: 1px;
+    color: rgb(135, 127, 111);
+    margin: 0px;
+    text-align: center;
+    font-size: 2.3vw;    
+}
+.subheading {
+  background-color: hsla(45, 13%, 38%, 0.8);
+  padding: 1px 30px 1px 30px;
+  color: rgb(244, 240, 233);
+  text-align: left;
+  font-size: 1.2vw; 
+  max-width: 1000px; /* to match max video width */
+  margin: auto; /* to match max video width */
+}
+#navbar {
+  overflow: hidden;
+  background-color: hsla(45, 13%, 38%, 0.95);
+  z-index: 1500;
+}
+#navbar a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  float: left;
+}
+#navbar a:hover {
+  background-color: #f2ede4;
+  color: rgb(70, 65, 50);
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1500px;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 200px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(59, 55, 45);
+}
+  
+/* Center website */
+.main {
+  max-width: 1500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+h2 {
+  text-align: left;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+h3 {
+  text-align: center;
+  color: hsla(47, 12%, 29%, 0.8);
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create (100/width) equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding-top: auto;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.endcolumn {
+  float: left;
+  width: 50%;
+  padding-top: auto;
+}
+
+/* Content */
+.content {
+  background-color: rgba(148, 145, 134, 0.3);
+  padding: 10px;
+  padding-top: auto;
+  border: 1px solid hsla(47, 8%, 45%, 0.8);
+}
+.content:hover {
+  background-color: rgba(254, 254, 254, 0.8);
+  border: 1px solid hsla(51, 6%, 78%, 0.8);
+}
+.image {
+  opacity: 1;
+  border: 1px solid hsla(47, 8%, 45%, 0.8);
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 0.8vw;
+  margin: 0px -30px 0px -10px;
+}
+.content:hover .image{
+  opacity: 0.25;
+}
+.content:hover .centered{
+  opacity: 1;
+}
+.content:hover h3{
+  color: hsla(47, 10%, 54%, 0.8);
+}
+
+.whiteSpace {
+  min-height: 800px; /* white space at the bottom may be required to stop a scrolling glitch where the content flashes if the content is around the same height as the screen height - something to do with the sticky navbar I think. */
+  opacity: 0;
+}
+
+
+/* Responsive layout - makes a five column-layout instead of ten columns */
+/*@media screen and (max-width: 1500px) {
+  .column {
+    width: 20%;
+  }
+}*/
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 2000px) {
+  .centered {
+    font-size: 1vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 1800px) {
+  .centered {
+    font-size: 1.1vw;
+    padding: 4px;
+  }
+}
+/* Responsive layout - alters responsive text inside images */
+@media screen and (max-width: 1500px) {
+  .centered {
+    font-size: 1.2vw;
+    padding: 4px;
+  }
+  .subheading {
+    font-size: 1.4vw;
+  }
+}
+/* Responsive layout - makes a three column stack on top of each other instead five stacked */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 33.3%;
+  }
+  .centered {
+    font-size: 1.9vw;
+    padding: 4px;
+  }
+  .subheading {
+    font-size: 1.9vw;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead three stacked */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+  .centered {
+    font-size: 2.5vw;
+    padding: 4px;
+  }
+  .subheading {
+    font-size: 2.3vw;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead three stacked */
+@media screen and (max-width: 750px) {
+  .sticky {
+    position: relative;
+  }
+  .subheading {
+    font-size: 2.9vw;
+  }
+}
+/* Responsive layout - makes the single column stack on top of each other instead two stacked */
+@media screen and (max-width: 600px) {
+  .column, .endcolumn {
+    width: 100%;
+  }
+  .centered {
+    font-size: 4.3vw;
+    padding: 4px;
+  }
+  .subheading {
+    font-size: 3.3vw;
+  }
+}
