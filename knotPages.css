@@ -202,6 +202,9 @@ h3 {
     font-size: 1.2vw;
     padding: 4px;
   }
+  .subheading {
+    font-size: 1.4vw;
+  }
 }
 /* Responsive layout - makes a three column stack on top of each other instead five stacked */
 @media screen and (max-width: 1200px) {
@@ -222,6 +225,9 @@ h3 {
     font-size: 2.5vw;
     padding: 4px;
   }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead three stacked */
+@media screen and (max-width: 750px) {
   .sticky {
     position: relative;
   }
