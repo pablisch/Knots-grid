@@ -216,7 +216,7 @@ h3 {
     padding: 4px;
   }
   .subheading {
-    font-size: 2.1vw;
+    font-size: 1.9vw;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead three stacked */
@@ -229,7 +229,7 @@ h3 {
     padding: 4px;
   }
   .subheading {
-    font-size: 2.7vw;
+    font-size: 2.3vw;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead three stacked */
@@ -238,7 +238,7 @@ h3 {
     position: relative;
   }
   .subheading {
-    font-size: 3.2vw;
+    font-size: 2.9vw;
   }
 }
 /* Responsive layout - makes the single column stack on top of each other instead two stacked */
@@ -251,6 +251,6 @@ h3 {
     padding: 4px;
   }
   .subheading {
-    font-size: 4vw;
+    font-size: 3.3vw;
   }
 }
