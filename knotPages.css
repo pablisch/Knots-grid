@@ -170,7 +170,7 @@ h3 {
 }
 
 .whiteSpace {
-  min-height: 800px;
+  min-height: 800px; /* white space at the bottom may be required to stop a scrolling glitch where the content flashes if the content is around the same height as the screen height - something to do with the sticky navbar I think. */
   opacity: 0;
 }
 
