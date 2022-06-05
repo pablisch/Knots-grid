@@ -15,7 +15,7 @@
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    max-width: 1000px;
+    max-width: 1000px; /* Stops video becoming too large on large screens - note that max-height does not work in this section perhaps due to be over-ridden by the height specification in the .responsive-video class style. */
     margin: auto;
   }
   
@@ -27,8 +27,7 @@
     right: 0;
     width: 100%;
     height: 100%;
-
-    max-height: 562px;
+    max-height: 562px; /* Keeps the 16:9 aspect ration when the screen width is over 1000px and so width is restricted in the .video-container style. - Note that if the max-width is moved to this style, the margins go badly for some reason. */
     border: none;
   }
 
